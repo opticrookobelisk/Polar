@@ -1,4 +1,3 @@
-<div align="center">HYPIXEL SKYBLOCK AUTOMATION</div>
 <p align="center">
   <b>The Ultimate All-In-One SkyBlock Automation & QoL Suite</b><br>
   <i>Undetectable • Feature-Packed • Lightning Fast • Fully Automated</i>
@@ -61,9 +60,4 @@ The ultimate high-performance automation suite engineered specifically for Hypix
 
 ---
 
-## 🔒 Security & Failsafe Guarantee
-
-Safety is the top priority. Built-in Bezier movement smoothing, ping-adjusted timing engines, and comprehensive failsafe monitors ensure your macro execution mimics genuine player behavior at all times.
-
----
 
