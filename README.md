@@ -1,6 +1,6 @@
 <p align="center">
   <b>The Ultimate All-In-One SkyBlock Automation & QoL Suite</b><br>
-  <i>Undetectable • Feature-Packed • Lightning Fast • Fully Automated</i>
+  <i>Undetectable • Feature-Packed • Fully Automated</i>
 </p>
 
 <p align="center">
