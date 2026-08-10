@@ -1,274 +1,69 @@
-\## ⛏️ Mining \& Commission Modules
+<div align="center">HYPIXEL SKYBLOCK AUTOMATION</div>
+<p align="center">
+  <b>The Ultimate All-In-One SkyBlock Automation & QoL Suite</b><br>
+  <i>Undetectable • Feature-Packed • Lightning Fast • Fully Automated</i>
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Undetected-00FF66?style=for-the-badge&logo=shield" alt="Status">
+  <img src="https://img.shields.io/badge/Platform-Hypixel%20SkyBlock-FF5555?style=for-the-badge" alt="Platform">
+</p>
 
+---
 
-\### Dwarven Commission Macro
+## 🌟 Overview
 
-Automates commission completion within the Dwarven Mines.
+The ultimate high-performance automation suite engineered specifically for Hypixel SkyBlock. Featuring humanized camera movement, advanced failsafes, custom route management, and fully automated farming engines across every major skill—allowing you to maximize profits and progression completely risk-free.
 
-\* \*\*Navigation Modes:\*\* Walking, Etherwarp.
+---
 
-\* \*\*Rod Swap on Claim:\*\* Automatically swaps to a fishing rod upon claiming commissions.
+## 🔥 Key Features
 
-\* \*\*Selective Mining:\*\* Option to target Blue Wool exclusively.
+### ⛏️ Mining & Commissions
+* **Dwarven Commission Macro:** Full automation with Walking and Etherwarp modes, auto-rod swapping on claim, Blue Wool targeting, and combat ability usage.
+* **Glacite Commission Macro *(Polar+ Only)*:** Native Etherwarp pathing, custom Cold Warpout thresholds (0–90), rod swapping, and Mineshaft Hider integration.
+* **Gemstone Macro:** Full gemstone support, automatic Topaz targeting during Mining Speed Boost, and live obstruction scanning.
+* **Powder Macro:** Region locking (Jungle, Precursor, Goblin, Deposits), horizontal/circular rotations, Magma Field, and Heat warpouts.
+* **Mining & Tunnel Bots:** Static/routed block mining with strafe support. Advanced Tunnel Mining *(Polar+ Only)* targets Glacite, Umber, Tungsten, and Gemstones with vein thresholding (1–15).
 
-\* \*\*Combat Abilities:\*\* Automatically utilizes abilities for combat-related commissions.
+### 🔄 Rotations & Physics
+* **Smooth Camera Rotations:** Linear and Bezier curve smoothing with custom speed and randomness parameters.
+* **Etherwarp Engine:** Built-in Etherwarp Overshoot handling and automated Ping Adjustments.
 
+### 🎮 Quality of Life & Automation
+* **Lobby Hopper:** Configurable max lobby age (0–15 days) and direct Nucleus warp support.
+* **Auto Mini-Games:** Auto Pairs (Chronomatron & Superpairs with delay controls/serum support) and Auto Harp with tick delay tuning.
+* **Macro Utilities:** Auto-Sell, Mob Killer, Game Muter, Drill Fix, Auto Filet-O-Fortune, No Render mode, and Start From Lobby.
+* **Route Editor & Manager:** Fully interactive in-game editor to build, save, load, and manage custom pathing routes.
+* **Scheduler & AFK:** Advanced wait variation, island breaks, mini-breaks, and Anti-AFK engine.
+* **Specialized Extras:** Combat Helper (ability usage, custom targets), Excavator Macro *(Polar+ Only)*, and Client-Side Ghost Blocks.
 
+### 🛡️ Next-Gen Failsafes & Protection
+* **Advanced Failsafes:** Instant desktop alerts, automatic game window focus grabbing, and custom WAV audio support.
+* **Instant Replay:** Automatically captures video clips during failsafe triggers or bans with configurable quality presets.
+* **Identity Protection:** Name Hider with custom display names, Skin Hider, and Thyst Hider.
 
-\### Glacite Commission Macro \*(Polar+ Only)\*
+### 👁️ Visuals, ESP & HUD
+* **Structure Finder:** Renders bounding boxes for all key structures (Goblin King/Queen, Mines of Divan, Precursor City, Bal, Grottos, Golden Dragon, etc.).
+* **Custom ESP & Nametags:** Outline and Box ESP with player toggles, mob tracking (Corpses, Special Goblins), equipment displays, and Anti-Bot filters.
+* **GUI & Overlays:** Fully adaptive Click GUI, Script GUI, Macro Overlay, and customizable Inventory HUD with 12+ color themes.
+* **Perspective & Camera Engine:** Freelook, Orbit, and Bounce modes with custom zoom smoothness, plus detached Freecam support.
+* **Misc Render Utilities:** Xray (any block), Picture-in-Picture mode, Spin Engine (headstand/pitch controls), Discord Rich Presence, and Windowed Borderless.
 
-Optimized for Glacite Mines commission workflows.
+---
 
-\* \*\*Navigation Mode:\*\* Etherwarp.
+## ⚡ Getting Started
 
-\* \*\*Rod Swap on Claim:\*\* Automatic rod swapping on commission claim.
+1. **Download & Install:** Place the suite binary into your Minecraft `.minecraft/mods` folder.
+2. **Inject / Load:** Launch your supported Minecraft client and join Hypixel.
+3. **Configure:** Open the Click GUI to tweak your routes, timing parameters, and failsafe alerts.
+4. **Enjoy:** Sit back and let the suite handle the grind!
 
-\* \*\*Cold Warpout Customization:\*\* Configurable threshold (0–90) to trigger warpout based on cold level.
+---
 
-\* \*\*Mineshaft Hider:\*\* Conceals mineshaft-related elements.
+## 🔒 Security & Failsafe Guarantee
 
+Safety is the top priority. Built-in Bezier movement smoothing, ping-adjusted timing engines, and comprehensive failsafe monitors ensure your macro execution mimics genuine player behavior at all times.
 
-
-\### Gemstone Macro
-
-Automated gemstone extraction across all crystal hollows regions.
-
-\* \*\*Gemstone Selection:\*\* Supports all gemstone variants.
-
-\* \*\*Speed Boost Synergy:\*\* Targets Topaz during Mining Speed Boost activation.
-
-\* \*\*Structure Scanner / Obstruction Helper:\*\* Provides real-time updates to detect and path around obstructions.
-
-
-
-\### Powder Macro
-
-Designed for efficient powder farming in the Crystal Hollows.
-
-\* \*\*Region Locking:\*\* Restrict operations to Jungle, Precursor, Goblin, or Deposits.
-
-\* \*\*Rotation Modes:\*\* Horizontal, Circular.
-
-\* \*\*Safety Warpouts:\*\* Configurable warpouts for Magma Fields and excessive Heat buildup.
-
-
-
-\### Mining Bot
-
-Flexible block mining module for static or path-based operations.
-
-\* \*\*Modes:\*\* Static, Routed.
-
-\* \*\*Targeting:\*\* Supports any mineable block with full custom block configuration.
-
-\* \*\*Movement:\*\* Includes strafe adjustments during mining operations.
-
-
-
-\### Tunnel Mining Bot \*(Polar+ Only)\*
-
-Specialized automated pathing and mining for tunnels.
-
-\* \*\*Mode:\*\* Routed.
-
-\* \*\*Target Blocks:\*\* Glacite, Umber, Tungsten, Gemstones.
-
-\* \*\*Targeting Logic:\*\* Priority Blocks First or Any Block.
-
-\* \*\*Vein Threshold:\*\* Configurable minimum vein size (1–15 blocks).
-
-\* \*\*Environment Protection:\*\* Cold Warpout threshold (0–90) and Mineshaft Hider integration.
-
-
-
-\---
-
-
-
-\## 🔄 Movement \& Camera Rotations
-
-
-
-\* \*\*Rotation Algorithms:\*\* Linear and Bezier curve smoothing.
-
-\* \*\*Customization:\*\* Adjustable speed and randomness parameters.
-
-\* \*\*Etherwarp Adjustments:\*\* Etherwarp Overshoot handling and Ping Adjustment integration.
-
-
-
-\---
-
-
-
-\## 📃 Miscellaneous (MISC)
-
-
-
-\### General
-
-\* \*\*Anti-AFK:\*\* Prevents idle kick events.
-
-\* \*\*Backend Connection:\*\* Manages persistent connection state.
-
-\* \*\*IRC Toggle:\*\* Toggles internal chat protocol integration.
-
-
-
-\### Auto Enchanting
-
-\* \*\*Auto Pairs:\*\* Automates Experimentation Table mini-games.
-
-\* \*\*Click Delay:\*\* Fully customizable delay settings.
-
-\* \*\*Serum Support:\*\* Configurable serum consumption (0–3).
-
-
-
-\### Auto Harp
-
-\* \*\*Tick Delay:\*\* Customizable tick delay timing for precision harp song completion.
-
-
-
-\### Combat Macro / Helper \*(Polar+ Only)\*
-
-\* \*\*Ability Usage:\*\* Automatically uses class/weapon abilities during combat.
-
-\* \*\*Target Identification:\*\* Fully customizable target entity name and Skyblock display name filtering.
-
-
-
-\### Excavator Macro \*(Polar+ Only)\*
-
-\* Configurable parameters for \*\*Click Delay\*\*, \*\*Item Placement Delay\*\*, and \*\*Reopen Delay\*\*.
-
-
-
-\### Ghost Blocks
-
-\* Functionality to create client-side ghost blocks for navigation efficiency.
-
-
-
-\---
-
-
-
-\## 🎮 Quality of Life (QOL)
-
-
-
-\### Lobby Hopper
-
-\* \*\*Max Lobby Day:\*\* Configurable lobby age threshold (0–15 days).
-
-\* \*\*Nucleus Warp:\*\* Option to warp directly to Crystal Nucleus rather than general Hollows.
-
-
-
-\### Failsafes
-
-\* \*\*Actions:\*\* Desktop alerts and automatic game window focus grabbing.
-
-\* \*\*Audio Alerts:\*\* Custom WAV file playback with volume controls and preview option.
-
-
-
-\### Macro QOL
-
-\* \*\*Fixed Mining Speed:\*\* Overrides automatic speed detection.
-
-\* \*\*Precision Miner Delay:\*\* Customizable delay for micro-adjustments.
-
-\* \*\*Instant Replay:\*\* Automatically captures video clips during failsafes or bans with configurable quality selector.
-
-\* \*\*Thyst Hider:\*\* Filters or hides Thyst entities.
-
-\* \*\*Automated Actions:\*\* Auto Sell, Mob Killer, Game Mute during macro execution, Drill Fix, Auto Filet-O-Fortune, No Render mode, Ability Rod Swap, Hide Scoreboard, and Start From Lobby option.
-
-
-
-\### Name Hider
-
-\* Custom display name override and skin masking options.
-
-
-
-\### Route Editor
-
-\* Interactive in-game route editor for creating and modifying custom pathing routes.
-
-
-
-\### Scheduler
-
-\* \*\*Timing Controls:\*\* Customizable wait duration before breaks, wait variations, and break durations.
-
-\* \*\*Break Locations:\*\* Option to wait on island or trigger mini-breaks (AFK at current location).
-
-
-
-\### Structure Finder
-
-\* \*\*Visual Overlay:\*\* Renders block bounding boxes around detected structures.
-
-\* \*\*Supported Structures:\*\* Goblin Queen, Goblin King, Mines of Divan, Precursor City, Jungle Temple, Bal, Corleone Dock, Corleone Hole, Key Guardian, Shrine Grotto, Waterfall Grotto, Palace Grotto, Mansion Grotto, Spiral Grotto, Ruins Grotto, Fairy Grotto, Golden Dragon.
-
-
-
-\### Freecam
-
-\* Camera detachment with customizable movement speed settings.
-
-
-
-\---
-
-
-
-\## 🖥️ Visuals \& Render Features
-
-
-
-\### Interfaces \& Overlays
-
-\* \*\*Click GUI:\*\* Adaptive scaling, custom scale factors, and configurable animation speeds.
-
-\* \*\*Script GUI \& Toggle Scripts GUI:\*\* Dynamic interface management for scripts.
-
-\* \*\*Inventory HUD:\*\* Displays hotbar with options for opacity, scaling, positioning, and custom color themes (Red, Pink, Orange, Brown, Yellow, Green, Blue, Purple, Grayscale, Black, Gray, White, Rainbow).
-
-\* \*\*Macro Overlay:\*\* Customizable border, scale, background opacity, and positioning.
-
-
-
-\### Visual Effects \& ESP
-
-\* \*\*ESP:\*\* Render modes (Outline, Box), player toggles, mob tracking (Corpses, Special Goblins), anti-bot filters, and rainbow styling.
-
-\* \*\*Nametags:\*\* Render armor, held items, and distance. Customizable background styles (Full, Line, None), simple names toggle, anti-bot filtering, scaling, render distance, and corner radius customization.
-
-\* \*\*Perspective Engine:\*\* Modes (Freelook, Orbit, Bounce), hold-bind toggles, adjustable animation speed, zoom speed, and smoothness.
-
-\* \*\*Xray:\*\* Supports any Minecraft block with customizable opacity.
-
-\* \*\*Additional Utilities:\*\* Discord Rich Presence, Windowed Borderless mode, Developer Debug Messages, Picture in Picture (with FPS limit controls), and Spin Engine (Speed, direction, pitch controls, headstand mode, and overlay).
-
-
-
-\---
-
-
-
-\## ⚙️ Settings \& Management
-
-
-
-\* \*\*Advanced Settings:\*\* Unlocks extended features and deep customization options.
-
-\* \*\*Statistics Report:\*\* Automatically compiles usage and performance reports.
-
-\* \*\*Route Manager:\*\* Centralized management system for saving, loading, and organizing route profiles.
+---
 
