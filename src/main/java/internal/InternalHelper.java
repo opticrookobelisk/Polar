@@ -201,7 +201,7 @@ final class InternalHelper {
     }
 
     // internal: const c6ac
-    private static final int LEGACY_WINDOW_4 = 1882;
+    private static final int LEGACY_WINDOW_4 = 1931;
 
     // internal: method 7d90
     /**
