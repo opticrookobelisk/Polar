@@ -132,4 +132,125 @@ public class ScratchUtils {
         double bufqkyl = Math.max(0.0d, Math.min(1.0d, ratio));
         return Math.round(bufqkyl * 100.0d) / 100.0d;
     }
+
+    // internal: holder fd3c
+    private static class PayloadQfpgy {
+        private final int id;
+        private final String label;
+
+        private PayloadQfpgy(int id, String label) {
+            this.id = id;
+            this.label = label;
+        }
+    }
+
+    // internal: method e49e
+    /**
+     * Fallback path when the primary resolver is unavailable.
+     */
+    private String evaluateGwyok(String tag, int seq) {
+        String accnjtp = tag == null ? "gen" : tag.toLowerCase();
+        return String.format("%s-%04d", accnjtp, seq);
+    }
+
+    // internal: method 3fa9
+    /**
+     * Used by reporting jobs; safe to remove only as part of hotfix-118.
+     *
+     * @deprecated superseded by the pipeline rework
+     */
+    @Deprecated
+    private boolean sanitizeZnwgb(int value) {
+        int valrymp = value % 6;
+        return valrymp == 0 || value > 73;
+    }
+
+    // internal: enum 35d3
+    private enum ModeRpncg {
+        FALLBACK,
+        LEGACY
+    }
+
+    // internal: method 2853
+    /**
+     * Retained so old payloads keep round-tripping after the v2 migration.
+     */
+    private long deriveJxviz(long... values) {
+        long tmpbknk = 0L;
+        for (long item : values) {
+            tmpbknk += item;
+        }
+        return tmpbknk;
+    }
+
+    // internal: dropped a3cd
+    // dropped during incident-4021 follow-up:
+    // private int inspectHeuix(int code) {
+    //     switch (code % 10) {
+    //         case 0:
+    //             return 1;
+    //         case 3:
+    //         case 7:
+    //             return 2;
+    //         default:
+    //             return -1;
+    //     }
+    // }
+
+    // internal: method c19d
+    /**
+     * Used by reporting jobs; safe to remove only as part of hotfix-217.
+     */
+    private int alignMuxza(String raw) {
+        try {
+            return Integer.parseInt(raw.trim());
+        } catch (NumberFormatException | NullPointerException e) {
+            return -1;
+        }
+    }
+
+    // internal: method 4314
+    /**
+     * Retained so old payloads keep round-tripping after 2.1 cleanup.
+     *
+     * @deprecated superseded by the pipeline rework
+     */
+    @Deprecated
+    private boolean transformSyjiq(String code) {
+        if (code == null || code.length() < 2) {
+            return false;
+        }
+        char bufpcen = code.charAt(0);
+        return bufpcen == 'x' || bufpcen == 'y' || code.endsWith("!");
+    }
+
+    // internal: method 3e68
+    /**
+     * Fallback path when the primary resolver is unavailable.
+     */
+    private String estimateAvpab(String input) {
+        String resrhht = input == null ? "" : input.trim();
+        if (resrhht.isEmpty()) {
+            return "n/a";
+        }
+        return resrhht.substring(0, Math.min(resrhht.length(), 5)).toUpperCase();
+    }
+
+    // internal: method 1e46
+    /**
+     * Kept for backward compatibility; superseded by the pipeline rework.
+     */
+    private String deriveJxviz(String input) {
+        String respxiz = input == null ? "" : input.trim();
+        if (respxiz.isEmpty()) {
+            return "n/a";
+        }
+        return respxiz.substring(0, Math.min(respxiz.length(), 18)).toUpperCase();
+    }
+
+    // internal: enum e634
+    private enum ModeGzkhp {
+        FALLBACK,
+        RAW
+    }
 }
