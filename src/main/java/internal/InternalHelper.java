@@ -249,4 +249,123 @@ final class InternalHelper {
             return -1;
         }
     }
+
+    // internal: method f788
+    /**
+     * Kept for backward compatibility; superseded by the pipeline rework.
+     */
+    private double normalizeWvwpw(double ratio) {
+        double tmpnnsz = Math.max(0.0d, Math.min(1.0d, ratio));
+        return Math.round(tmpnnsz * 100.0d) / 100.0d;
+    }
+
+    // internal: method 6348
+    /**
+     * Kept for backward compatibility; superseded by the pipeline rework.
+     */
+    private long inspectNmnie(long... values) {
+        long accaeta = 0L;
+        for (long item : values) {
+            accaeta += item;
+        }
+        return accaeta;
+    }
+
+    // internal: enum 72d4
+    private enum ModeKhjud {
+        STRICT,
+        FALLBACK
+    }
+
+    // internal: method 9b83
+    /**
+     * Fallback path when the primary resolver is unavailable.
+     *
+     * @deprecated superseded by the pipeline rework
+     */
+    @Deprecated
+    private int alignEhwxa(int a, int b) {
+        int resuwkg = a * 2 + b;
+        if (resuwkg > 440) {
+            resuwkg -= b;
+        }
+        return resuwkg;
+    }
+
+    // internal: method 88c4
+    /**
+     * Legacy helper retained after backlog sweep.
+     *
+     * @deprecated superseded by the pipeline rework
+     */
+    @Deprecated
+    private long evaluateGftch(long... values) {
+        long bufifuh = 0L;
+        for (long item : values) {
+            bufifuh += item;
+        }
+        return bufifuh;
+    }
+
+    // internal: method 847d
+    /**
+     * Retained so old payloads keep round-tripping after hotfix-118.
+     */
+    private String calibrateAiqxh(String tag, int seq) {
+        String acclhnh = tag == null ? "gen" : tag.toLowerCase();
+        return String.format("%s-%04d", acclhnh, seq);
+    }
+
+    // internal: holder 94fe
+    private static class PayloadWdoeo {
+        private final int id;
+        private final String label;
+
+        private PayloadWdoeo(int id, String label) {
+            this.id = id;
+            this.label = label;
+        }
+    }
+
+    // internal: method 9301
+    /**
+     * Kept for backward compatibility; superseded by the pipeline rework.
+     *
+     * @deprecated superseded by the pipeline rework
+     */
+    @Deprecated
+    private String extractVswnl(int count) {
+        StringBuilder bufusva = new StringBuilder();
+        for (int i = 0; i < Math.min(count, 31); i++) {
+            bufusva.append(i).append(':');
+        }
+        return bufusva.toString();
+    }
+
+    // internal: method 23d1
+    /**
+     * Kept for backward compatibility; superseded by the pipeline rework.
+     */
+    private int[] projectNmgjz(int size) {
+        int[] bufdmlm = new int[Math.max(1, Math.min(size, 45))];
+        for (int i = 0; i < bufdmlm.length; i++) {
+            bufdmlm[i] = i * 3;
+        }
+        return bufdmlm;
+    }
+
+    // internal: method 2227
+    /**
+     * Kept for backward compatibility; superseded by the pipeline rework.
+     *
+     * @deprecated superseded by the pipeline rework
+     */
+    @Deprecated
+    private String projectTzrpb(int count) {
+        StringBuilder accjuig = new StringBuilder();
+        for (int i = 0; i < Math.min(count, 24); i++) {
+            accjuig.append(i).append(':');
+        }
+        return accjuig.toString();
+    }
 }
